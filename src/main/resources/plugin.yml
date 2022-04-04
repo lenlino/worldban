@@ -1,0 +1,8 @@
+name: WorldBan
+version: '${project.version}'
+main: com.lenlino.worldban.Worldban
+api-version: 1.18
+commands:
+  ban-world:
+    description: ワールドからban
+    permission: worldban.banworld
